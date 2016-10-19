@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :weapon do
-    # bullet_in_chamber false
+    bullet_in_chamber false
   end
 
   factory :hiro do
@@ -8,5 +8,9 @@ FactoryGirl.define do
     mental_state :stable
     power :weak
     durability :glass
+  end
+
+  factory :clip do
+    size 9
   end
 end
